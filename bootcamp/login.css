@@ -1,0 +1,39 @@
+body{
+    display: flex;
+}
+.brand{
+
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main{
+    margin: 0;
+    font-size: 100px;
+    font-weight: 200;
+}
+.input{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login{
+    margin: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    width:200px;
+    height: 30px;
+}
+
+.in{
+    margin: 15px;
+    width:200px;
+}
