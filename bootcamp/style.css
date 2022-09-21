@@ -1,0 +1,55 @@
+button{
+    background-color: yellowgreen;
+    color: white;
+}
+
+#para1{
+    color:hotpink;
+    font-size: smaller;
+}
+
+#para2{
+    font-size: 18px;
+    color: indigo;
+}
+
+.content{
+    background-color: aquamarine;
+    font-weight: 600;
+}
+
+.outerBox{
+    width:300px;
+    height: 400px;
+    background-color: brown;
+    margin: 40px;
+    padding: 20px;
+    border-top: 20px solid;
+    border-bottom: 5px solid;/* solid is the style of the border */
+    border-color: yellowgreen;
+}
+
+.innerBox{
+    margin: 10px;
+    width: 100px;
+    height: 200px;
+    float: left;
+    background-color: rgb(36, 205, 92);
+}
+.para3{
+    color: aliceblue;
+}
+
+.bg{
+    height: 100vh;
+    width: 100vh;
+    background: tan;
+}
+
+.innerBox2{
+    margin: 10px;
+    width: 100px;
+    height: 200px;
+    float: left;
+    background-color: rgb(36, 205, 92);
+}
