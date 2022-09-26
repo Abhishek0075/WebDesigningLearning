@@ -81,8 +81,12 @@ h4{
     margin-top: 0px;
 }
 
-.formPart{
+.textAboveForm{
     margin-left: 114px;
 
 }
 
+.emailBox{
+    width: 225px;
+    height: 25px;
+}
