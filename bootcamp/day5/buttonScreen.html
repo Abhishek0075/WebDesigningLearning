@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buttons</title>
+</head>
+
+<style>
+    .screen{
+        width: 300px;
+        height: 300px;
+        border:solid 1px;
+    }
+
+    .aligner{
+        display: flex;
+    }
+
+</style>
+
+<body>
+    <div class="aligner">
+        <div class="screen"></div>
+        <div class="screen">HELLO DASA</div>
+    </div>
+    <button onclick="color('red')">RED</button>
+    <button onclick="color('green')">GREEN</button>
+    <button onclick="color('yellow')">YELLOW</button>
+    <button onclick="color('orange')">ORANGE</button>
+    <script>
+        function color(col){
+            document.getElementsByClassName("screen")[0].style.background=col
+            document.getElementsByClassName("screen")[1].style.color=col
+        }
+    </script>
+</body>
+</html>
