@@ -5,20 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 </head>
 <body>
     <button id="btn">Click Me</button>
-    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <div id="screen"></div>
+    <input type="text" id="in"><br>
+    <label for="in" id="error" style="color: red;font-size:12px;visibility: hidden;">Minimum of 4 characters needed !</label>
+
     <script>
         $(document).ready(function(){
             $("#btn").click(function(){
-                alert("Button Clicked")
+                // alert("Button Clicked")
+                $("#screen").toggle(1000);
             })
             $("#btn").mouseenter(function(){
-                $(this).css({"background":"blue"})
+                $(this).css({"background":"#6a8fbd"});
             })
             $("#btn").mouseleave(function(){
-                $(this).css({"background":"#4444"})
+                $(this).css({"background":"#0069ed"});
+            })
+
+            $("#in").blur(function(){ // blur means the situation after clicking outside the input box
+                var text=$(this).val();
+                if(text.length<4){
+                    console.log(text.length)
+                    // alert("The number of letters of input is less than 4");
+                    $("#error").css({"visibility":"visible"})//Used to display red caution to input less than 4 char
+                    
+                }
             })
         })
     </script>
