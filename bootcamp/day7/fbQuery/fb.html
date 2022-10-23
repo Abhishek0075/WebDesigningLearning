@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="logo">
+                <a href="fb.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                    <table class="login-credentials">
+                        <tr>
+                            <td><label class="loginLabel">Email or Mobile</label></td>
+                            <td><label class="loginLabel">Password</label></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text"></td>
+                            <td><input type="password"></td>
+                            <td><input class="loginButton" type="submit" value="Login"></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td><label class="Forgotten">Forgotten Password?</label></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="middlePart">
+            <div class="mapImage">
+                <img src="map.jpg" alt="map" >
+            </div>
+            <div class="textAboveForm">
+                <h1>Create an account</h1>
+                <h4>It's quick and easy</h4>
+                <form action="" id="formPart">
+                    <div>
+                        <input name="emailAddress" id="emailBox" type="email" placeholder="Email"><br>
+                    </div>
+                    <div>
+                        <input name="fName" class="feild" type="text" placeholder="First Name">
+                        <input name="sName" class="feild" type="text" placeholder="Surname Name"><br>
+                    </div>
+                    
+                    <select name="date" id="dob">
+                        <option value="">Day</option>
+                        <option value="1963">1963</option>
+                        <option value="1964">1964</option>
+                        <option value="1965">1965</option>
+                    </select>
+
+                    <div>
+                        <label for="gender">Gender</label>
+                        <br>
+                        <label for="">Male</label>
+                        <input type="radio" name="gender">
+                        <label for="">Female</label>
+                        <input type="radio" name="gender">
+                        <label for="">Others</label>
+                        <input type="radio" name="gender">
+                    </div>
+                    
+                    <div>
+                        <button class="sub" type="submit">Submit</button>
+                    </div>
+                    
+                    <!-- More to add -->
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

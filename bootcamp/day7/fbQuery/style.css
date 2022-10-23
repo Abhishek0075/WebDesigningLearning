@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+}
+
+.header{
+    background: #3b5998;
+    width: 100%;
+    height: 85px;
+    display: flex;
+}
+
+
+.logo,a:link, a:visited{
+    width: 50%;
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    padding-left:105px ;
+    padding-top: 26px;
+}
+.login{
+    padding-top: 10px;
+}
+
+.loginLabel{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+}
+
+.Forgotten{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: small;
+}
+
+.loginButton{
+    height: fit-content;
+    border-radius: 50px;
+    border: 0px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    cursor: cursor;
+    width: 50px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    background-color: #6c7da0;
+    color: aliceblue;
+    transition: ease-in-out 300ms;
+}
+
+.loginButton:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+.mapImage{
+    padding-left: 70px;
+    padding-top: 10px;
+    height: 500px;
+}
+
+.middlePart{
+    background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, rgb(216 222 234) 28.44%, 
+    rgb(193 202 221) 57.53%, #c1cadd 77.96%);
+    height: 500px;
+    display: flex;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.textAboveForm{
+    margin-left: 114px;
+
+}
+
+#emailBox{
+    width: 342px;
+    height: 25px;
+}
+.feild{
+    margin-top: 10px;
+    width: 155px;
+    height: 25px;
+}
